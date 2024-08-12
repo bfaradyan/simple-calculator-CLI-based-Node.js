@@ -24,6 +24,7 @@ switch (operation) {
             return a * b;
         };
         console.log(a, "*", b, "=", multiply(a,b));
+        break;
         
     case "divide":
         function divide(a,b) {
